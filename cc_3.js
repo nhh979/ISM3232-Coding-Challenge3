@@ -11,4 +11,9 @@ class Car{
         this.speed += 10;
         console.log(`The speed of the ${this.make} after accelerating is ${this.speed} km/h.`);
     }
+
+    brake () {
+        this.speed -= 5;
+        console.log(`The speed of the ${this.make} after braking is ${this.speed} km/h.`);
+    }
 }
